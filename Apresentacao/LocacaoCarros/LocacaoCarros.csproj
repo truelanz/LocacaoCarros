@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dados\Dados\Dados.csproj" />
+    <ProjectReference Include="..\..\Negocio\Models\Negocio.csproj" />
+  </ItemGroup>
+
 </Project>

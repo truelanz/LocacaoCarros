@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36804.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocacaoCarros", "LocacaoCarros\LocacaoCarros.csproj", "{B02F2479-8A65-423B-B81F-EBEC71FB3A4F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Negocio", "02 - Negocio", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Dados", "03 - Dados", "{768F2A32-5AED-47B2-80F2-E3465D618ABD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{768F2A32-5AED-47B2-80F2-E3465D618ABD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{74C9C304-5F1E-4814-8D34-5BA418F146BB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Apresentacao", "01 - Apresentacao", "{74C9C304-5F1E-4814-8D34-5BA418F146BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados\Dados.csproj", "{E48BEC66-8A6A-4135-A725-CC4021AFD326}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Models\Negocio.csproj", "{9AACDF77-F846-4565-AC6D-DF490AD682D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocacaoCarros", "Apresentacao\LocacaoCarros\LocacaoCarros.csproj", "{85D4E769-1A98-0F0C-E291-B34E18596A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B02F2479-8A65-423B-B81F-EBEC71FB3A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B02F2479-8A65-423B-B81F-EBEC71FB3A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B02F2479-8A65-423B-B81F-EBEC71FB3A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B02F2479-8A65-423B-B81F-EBEC71FB3A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E48BEC66-8A6A-4135-A725-CC4021AFD326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E48BEC66-8A6A-4135-A725-CC4021AFD326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E48BEC66-8A6A-4135-A725-CC4021AFD326}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,14 +29,18 @@ Global
 		{9AACDF77-F846-4565-AC6D-DF490AD682D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AACDF77-F846-4565-AC6D-DF490AD682D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AACDF77-F846-4565-AC6D-DF490AD682D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D4E769-1A98-0F0C-E291-B34E18596A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D4E769-1A98-0F0C-E291-B34E18596A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D4E769-1A98-0F0C-E291-B34E18596A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D4E769-1A98-0F0C-E291-B34E18596A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B02F2479-8A65-423B-B81F-EBEC71FB3A4F} = {74C9C304-5F1E-4814-8D34-5BA418F146BB}
 		{E48BEC66-8A6A-4135-A725-CC4021AFD326} = {768F2A32-5AED-47B2-80F2-E3465D618ABD}
 		{9AACDF77-F846-4565-AC6D-DF490AD682D8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{85D4E769-1A98-0F0C-E291-B34E18596A6D} = {74C9C304-5F1E-4814-8D34-5BA418F146BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E42D2318-9772-4AF0-8CF2-00A29513E296}
